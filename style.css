@@ -175,6 +175,20 @@ section{
     background-color: #322e1fd8;
 }
 
+@media (max-width: 768px) {
+    .home-content {
+      padding-top: 150px;
+    }
+  
+    .home-content h1 {
+      font-size: 40px;
+    }
+  
+    .home-content a {
+      font-size: 14px;
+    }
+  }
+
 /* .home-content h1{
     font-size: 60px;
     color: #302a15d8;
@@ -208,20 +222,6 @@ section{
     margin-top: 50px;
 }  */
 
-/* 
-#ch{
-    display: none;
-}
-
-#ch + label{
-    display: inline-block;
-    cursor: pointer;
-    color: #fff;
-    background-color: burlywood;
-    padding: 3px 13px;
-    border-radius: 3px;
-    margin-top:  12px;
-} */
 
 
 /* CONTENT PAGE */
